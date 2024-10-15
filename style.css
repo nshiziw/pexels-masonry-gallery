@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    width: 100%;
+    padding: 0 20px;
+    columns: 6;
+    column-gap: 15px;
+}
+.container .box {
+    width: 100%;
+    margin-bottom: 7.5px;
+    break-inside: avoid;
+}
+.container .box img{
+    width: 100%;
+    border-radius: 15px;
+}
